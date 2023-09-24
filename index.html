@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    .btn-getclass {
+
+      border-radius: 24px;
+      background-color: rgb(15, 134, 108);
+      border: 0;
+    }
+
+
+
+    /* Apply specific styles when the screen width is less than 600 pixels */
+    @media screen and (max-width: 600px) {
+      .btn-getclass img {
+        pointer-events: none;
+        /* Disable pointer events on the image */
+        display: none;
+        /* Hide the image */
+      }
+    }
+
+
+    .title-txt {
+
+      font-family: Roboto;
+    }
+  </style>
+
+
+<!-- <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.4.0/kakao.min.js"
+    integrity="${sha384-mXVrIX2T/Kszp6Z0aEWaA8Nm7J6/ZeWXbL8UpGRjKwWe56Srd/iyNmWMBhcItAjH}" crossorigin="anonymous"></script>
+  <script>
+    // Initialize SDK with JavaScript key for your app.
+    Kakao.init('dc62abc3bda04d317de51886076b119a');
+
+    // Check if the initialization is successfully done.
+    console.log(Kakao.isInitialized());
+  </script> -->
+
+</head>
+
+<body>
+
+
+  <div class="container-md fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #426196;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/peopletalklogo.png" alt="Logo" width="160" class="img-fluid align-text-top">
+        </a>
+        <button class="navbar-toggler btn btn-outline-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>      
+
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link text-light active fs-5" aria-current="page" href="#">Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  <div class="container-md container text-center ">
+    <div class="container-md bg-image p-5 text-center shadow-1-strong text-white"
+      style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');">
+      <div class="row row-cols-1">
+        <div class="col ">
+
+
+          <div class="d-grid mx-auto">
+            <h1 style="font-size:4vw;" class="title-txt mt-5 container text-center">Quality Talks That Deliver
+            </h1>
+            <h1 style="font-size:4vw;" class="title-txt mt-2">Quality Conversation</h1>
+          </div>
+
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+              </div>
+              <div class="col-8 ">
+                <div class="d-grid mx-auto">
+                  <button class="btn-getclass btn btn-primary btn-lg mb-5" type="button">Get Classes
+                    <img src="assets/arrowicon.png" width="20" />
+                  </button>
+                </div>
+              </div>
+              <div class="col">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md container text-center mt-5 ">
+
+      <h1 class="card-title mb-5 border-bottom border-primary pb-2 ">Select Your Enrollment Plan</h1>
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="container-fluid text-center border-primary"> &nbsp;
+                <h4 class="card-title">20 Minutes</h4>
+                <h4 class="card-title text-primary">₩120,000
+                  <span class="h6 text-dark">KRW</span>
+                </h4>
+                <p class="card-text">15 + 2 Classes per month </p>
+                <a href="#" class="btn btn-outline-primary">Get Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 ">
+          <div>
+            <div class="card border border-primary">
+              <div class="card-body">
+                <div class="container-fluid text-center border-primary">
+                  <span class="h8 text-primary">Recommended</span>
+
+                  <h4 class="card-title">30 Minutes</h4>
+                  <h4 class="card-title text-primary">₩130,000
+                    <span class="h6 text-dark">KRW</span>
+                  </h4>
+                  <p class="card-text">15 + 2 Classes per month</p>
+                  <a href="#" class="btn btn-primary">Get Now</a>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="container-fluid text-center border-primary"> &nbsp;
+                <h4 class="card-title">50 Minutes</h4>
+                <h4 class="card-title text-primary">₩224,000
+                  <span class="h6 text-dark">KRW</span>
+                </h4>
+                <p class="card-text">15 + 2 Classes per month</p>
+                <a href="#" class="btn btn-outline-primary">Get Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md container text-center mt-3">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">20 Minutes</h4>
+              <h4 class="card-title text-primary">₩8,200
+                <span class="h6 text-dark">KRW</span>
+              </h4>
+              <p class="card-text">1 Class only</p>
+              <a href="#" class="btn btn-outline-primary">Get Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 ">
+          <div class="card border">
+            <div class="card-body">
+              <h4 class="card-title">30 Minutes</h4>
+              <h4 class="card-title text-primary">₩9,200
+                <span class="h6 text-dark">KRW</span>
+              </h4>
+              <p class="card-text">1 Class only</p>
+              <a href="#" class="btn btn-outline-primary">Get Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mb-5">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">50 Minutes</h4>
+              <h4 class="card-title text-primary">₩15,200
+                <span class="h6 text-dark">KRW</span>
+              </h4>
+              <p class="card-text">1 Class only</p>
+              <a href="#" class="btn btn-outline-primary">Get Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+
+    </div>
+
+
+    <div class="container-md text-center mb-5">
+      <div class="container-md ">
+        
+        <h1 class="mb-5 border-bottom border-primary pb-2">Courses Offered</h1>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Intermediate Course
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body text-start">
+              <p>-simple and useful English expressions</p>
+              <p>-daily English expressions</p>
+              <p>-expressing things you think about </p>
+              <p>-introducing yourself</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Higher intermediate course
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Lower advanced course 
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Advanced course
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--   <script>
+    window.kakaoAsyncInit = function() {
+      Kakao.Channel.createChatButton({
+        container: '#kakao-talk-channel-chat-button',
+      });
+    };
+  
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.4.0/kakao.min.js';
+      js.integrity = 'sha384-mXVrIX2T/Kszp6Z0aEWaA8Nm7J6/ZeWXbL8UpGRjKwWe56Srd/iyNmWMBhcItAjH';
+      js.crossOrigin = 'anonymous';
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, 'script', 'kakao-js-sdk');
+  </script>
+
+
+
+
+<div
+id="kakao-talk-channel-chat-button"
+data-channel-public-id="kevin005"
+data-title="consult"
+data-size="large"
+data-color="yellow"
+data-shape="pc"
+data-support-multiple-densities="true"
+></div>
+   -->
+
+
+
+
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
